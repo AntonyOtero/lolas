@@ -1,0 +1,178 @@
+:root {
+  --color-green: #2f6a49;
+  --color-pink: #ffb6c4;
+  --color-orange: #f95c00;
+  --color-yellow: #ffd400;
+  --color-beige: #ffd7b3;
+  --color-white: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+
+/*//////////////////////////
+  HEADER 
+//////////////////////////*/
+
+header {
+  padding: 20px;
+  color: var(--color-white);
+  background-color: var(--color-green);
+}
+
+header nav {
+  margin: 5px 0 0;
+  text-align: right;
+}
+
+header a {
+  margin: 0 0 0 30px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+}
+
+header a:hover {
+  padding: 0 0 5px 0;
+  border-bottom: 3px solid var(--color-pink);
+}
+
+/*//////////////////////////
+  Hero 
+//////////////////////////*/
+
+.hero {
+  padding: 275px 0;
+  background: center / cover no-repeat url("/assets/header-background.svg");
+}
+
+.hero h2 {
+  margin: 0 auto;
+  max-width: 850px;
+  font-size: 80px;
+  line-height: 1;
+  text-align: center;
+  color: var(--color-orange);
+}
+
+/*//////////////////////////
+  About 
+//////////////////////////*/
+
+.about {
+  text-align: center;
+  color: var(--color-green);
+  background-color: var(--color-pink);
+}
+
+.about h3 {
+  margin: 50px 0;
+  font-size: 36px;
+}
+
+.about p {
+  margin: 0 auto 100px;
+  max-width: 789px;
+}
+
+/*//////////////////////////
+  Food 
+//////////////////////////*/
+
+.food {
+  display: flex;
+  color: var(--color-green);
+  background-color: var(--color-yellow);
+}
+
+.food-info {
+  padding: 60px 0 80px 50px;
+}
+
+.food p {
+  max-width: 400px;
+}
+
+.food-image {
+  background: center / cover no-repeat url("/assets/blue-bowl.jpg");
+}
+
+/*//////////////////////////
+  Quote 
+//////////////////////////*/
+
+.quote {
+  padding: 100px 80px;
+  color: var(--color-green);
+  background-color: var(--color-beige);
+}
+
+.quote blockquote {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+/*//////////////////////////
+  Gallery 
+//////////////////////////*/
+
+/*//////////////////////////
+  Find Us 
+//////////////////////////*/
+
+.find-us {
+  padding: 60px 0 50px;
+  text-align: center;
+  color: var(--color-pink);
+  background-color: var(--color-green);
+}
+
+.find-us-info p {
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.find-us-map img {
+  border-radius: 50%;
+}
+
+/*//////////////////////////
+  Supporters 
+//////////////////////////*/
+
+.supporters {
+  padding: 50px 0;
+  text-align: center;
+  color: var(--color-orange);
+}
+
+.supporter-logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0 0;
+}
+
+.supporters img {
+  margin: 0 0 0 25px;
+}
+
+/*//////////////////////////
+  Footer 
+//////////////////////////*/
+
+footer {
+  padding: 20px;
+  color: var(--color-green);
+  background-color: var(--color-pink);
+}
+
+footer p {
+  margin: 7px 0;
+  text-align: right;
+}
