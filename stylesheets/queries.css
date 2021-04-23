@@ -1,5 +1,127 @@
-@media (max-width: 700px) {
+/*//////////////////////////
+  <= 950px
+//////////////////////////*/
+@media (max-width: 950px) {
+
+  /*//////////////////////////
+    FOOD 
+  //////////////////////////*/
+
+  .food {
+    flex-direction: column;
+  }
+
+  .food-image {
+    visibility: collapse;
+  }
+
+  /*//////////////////////////
+    FIND US
+  //////////////////////////*/
+
+  .find-us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .find-us-map {
+    margin: 50px auto;
+    max-width: 250px;
+  }
+}
+
+/*//////////////////////////
+  <= 600px 
+//////////////////////////*/
+@media (max-width: 600px) {
+
   body {
     font-size: 16px;
   }
+
+  header,
+  section:not(.food):not(.gallery),
+  footer {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  /*//////////////////////////
+    HEADER
+  //////////////////////////*/
+
+  header .logo-wrapper {
+    float: none;
+  }
+
+  header nav {
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  header a:first-child {
+    margin-left: 0;
+  }
+
+  /*//////////////////////////
+    HERO
+  //////////////////////////*/
+
+  .hero h2 {
+    max-width: 277px;
+    font-size: 30px;
+    line-height: 1.1;
+  }
+
+  /*//////////////////////////
+    ABOUT
+  //////////////////////////*/
+
+  .about h3 {
+    font-size: 30px;
+    line-height: 1.1;
+  }
+
+  .about p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  /*//////////////////////////
+    QUOTE
+  //////////////////////////*/
+
+  .quote blockquote {
+    font-size: 26px;
+    line-height: 1.15;
+  }  
+  
+  /*//////////////////////////
+    GALLERY 
+  //////////////////////////*/
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*//////////////////////////
+    SUPPORTERS
+  //////////////////////////*/
+
+  .supporter-logos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .supporters img {
+    margin: 0 0 30px;
+    max-width: 125px;
+  }
+
+  .supporters img:last-child {
+    margin-bottom: 0;
+    max-width: 250px;
+  }
+
 }

@@ -22,9 +22,12 @@
 }
 
 .col-4 {
-  width: 33.33%;
+  min-width: 33.33%;
 }
 
 .col-6 {
-  width: 50%;
+  min-width: 50%;
+}
+.col-8 {
+  min-width: 66.66%;
 }

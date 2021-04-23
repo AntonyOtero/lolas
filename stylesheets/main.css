@@ -102,6 +102,10 @@ header a:hover {
   background: center / cover no-repeat url("/assets/blue-bowl.jpg");
 }
 
+.food-image-alt {
+  visibility: collapse;
+}
+
 /*//////////////////////////
   Quote 
 //////////////////////////*/
@@ -121,6 +125,10 @@ header a:hover {
 /*//////////////////////////
   Gallery 
 //////////////////////////*/
+
+.gallery {
+  display: flex;
+}
 
 /*//////////////////////////
   Find Us 
